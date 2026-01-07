@@ -1,0 +1,1245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Los Primos Drive-Thru LLC — Snacks & Prepared Drinks in the RGV. Call (956) 378-3618." />
+  <title>LosPrimosDrive-Thru.com | Los Primos Drive-Thru LLC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+
+  <link rel="canonical" href="https://LosPrimosDrive-Thru.com/" />
+  <meta property="og:title" content="Los Primos Drive-Thru LLC" />
+  <meta property="og:description" content="Snacks & Prepared Drinks — Drive-thru pickup. Call (956) 378-3618." />
+  <meta property="og:url" content="https://LosPrimosDrive-Thru.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0b12" />
+
+</head>
+
+<body>
+  <!-- Top Announcement -->
+  <div class="announce" role="banner">
+    <div class="container announce__row">
+      <span class="badge">LOS PRIMOS DRIVE-THRU</span>
+      <span class="announce__text">Snacks + Prepared Drinks • Drive-thru pickup</span>
+      <a class="announce__phone" href="tel:+19563783618">Call: (956) 378-3618</a>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__row">
+      <a class="brand" href="#top" aria-label="Los Primos Drive-Thru LLC home">
+        <img src="./MICHELADAS956.png" alt="Los Primos Drive-Thru LLC logo" class="brand__logo" />
+        <div class="brand__text">
+          <div class="brand__name">Los Primos</div>
+          <div class="brand__sub">Drive-Thru LLC</div>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleBars" aria-hidden="true"></span>
+          <span class="sr-only">Open menu</span>
+        </button>
+
+        <div class="nav__menu" id="navMenu">
+          <a href="#menu">Menu</a>
+          <a href="#specials">Specials</a>
+          <a href="#hours">Hours</a>
+          <a href="#contact">Contact</a>
+          <a class="btn btn--small" href="tel:+19563783618">Call to Order</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <h1>Snacks & Prepared Drinks — <span class="accent">Drive-Thru Fast</span></h1>
+        <p>
+          Welcome to <strong>Los Primos Drive-Thru LLC</strong>.
+          Pull up for refreshing prepared drinks and snack cravings — quick, cold, and ready.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn" href="#menu">View Menu</a>
+          <a class="btn btn--ghost" href="tel:+19563783618">Call (956) 378-3618</a>
+        </div>
+
+        <div class="hero__meta">
+          <div class="metaCard">
+            <div class="metaCard__label">Phone</div>
+            <div class="metaCard__value"><a href="tel:+19563783618">(956) 378-3618</a></div>
+          </div>
+          <div class="metaCard">
+            <div class="metaCard__label">Order</div>
+            <div class="metaCard__value">Call / Drive-Thru</div>
+          </div>
+          <div class="metaCard">
+            <div class="metaCard__label">Menu</div>
+            <div class="metaCard__value">Snacks + Drinks</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__card" aria-label="Featured items">
+        <div class="hero__cardTop">
+          <div>
+            <div class="kicker">Popular Picks</div>
+            <div class="hero__title">Customer Favorites</div>
+          </div>
+          <span class="chip">Fresh • Cold • Fast</span>
+        </div>
+
+        <ul class="featureList">
+          <li>
+            <span class="dot"></span>
+            <div>
+              <div class="featureList__name">Classic Michelada</div>
+              <div class="featureList__desc">Spicy, tangy, ice-cold refresh.</div>
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div>
+              <div class="featureList__name">Mangonada</div>
+              <div class="featureList__desc">Mango + chamoy + tajín.</div>
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div>
+              <div class="featureList__name">Elote en Vaso</div>
+              <div class="featureList__desc">Crema + queso + tajín + limón.</div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="hero__cardBottom">
+          <a class="btn btn--small" href="#contact">Get Info</a>
+          <a class="btn btn--small btn--ghost" href="#menu">Full Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Quick Strip -->
+  <section class="strip" aria-label="Quick highlights">
+    <div class="container strip__grid">
+      <div class="stripItem">
+        <div class="stripItem__icon">🧊</div>
+        <div>
+          <div class="stripItem__title">Ice-Cold Drinks</div>
+          <div class="stripItem__text">Prepared fresh & served fast.</div>
+        </div>
+      </div>
+      <div class="stripItem">
+        <div class="stripItem__icon">🌶️</div>
+        <div>
+          <div class="stripItem__title">Make It Your Way</div>
+          <div class="stripItem__text">Spice level, rims, toppings.</div>
+        </div>
+      </div>
+      <div class="stripItem">
+        <div class="stripItem__icon">🚗</div>
+        <div>
+          <div class="stripItem__title">Drive-Thru Easy</div>
+          <div class="stripItem__text">Quick pickup—no waiting inside.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Menu -->
+  <section class="section" id="menu">
+    <div class="container">
+      <div class="section__head">
+        <h2>Menu</h2>
+        <p class="muted">Snacks and prepared drinks. (Easy to edit — I can add prices when you’re ready.)</p>
+      </div>
+
+      <div class="menuTools">
+        <div class="search">
+          <label class="sr-only" for="searchInput">Search menu</label>
+          <input id="searchInput" type="search" placeholder="Search snacks or drinks (ex: michelada, mangonada)..." />
+        </div>
+
+        <div class="filters" role="tablist" aria-label="Menu category filters">
+          <button class="pill is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-filter="snacks" role="tab" aria-selected="false">Snacks</button>
+          <button class="pill" data-filter="drinks" role="tab" aria-selected="false">Prepared Drinks</button>
+        </div>
+      </div>
+
+      <div class="menuGrid" id="menuGrid">
+        <!-- SNACKS -->
+        <article class="menuCard" data-category="snacks">
+          <div class="menuCard__top">
+            <h3>Elote en Vaso</h3>
+            <span class="tag">Snack</span>
+          </div>
+          <p class="menuCard__desc">Corn cup with crema, cheese, tajín, lime.</p>
+          <div class="menuCard__meta"><span>Best seller</span><span class="sep">•</span><span>Add extra tajín</span></div>
+        </article>
+
+        <article class="menuCard" data-category="snacks">
+          <div class="menuCard__top">
+            <h3>Nachos</h3>
+            <span class="tag">Snack</span>
+          </div>
+          <p class="menuCard__desc">Chips, cheese, jalapeños (add-ons available).</p>
+          <div class="menuCard__meta"><span>Customize</span><span class="sep">•</span><span>Add meat</span></div>
+        </article>
+
+        <article class="menuCard" data-category="snacks">
+          <div class="menuCard__top">
+            <h3>Hot Cheetos w/ Cheese</h3>
+            <span class="tag">Snack</span>
+          </div>
+          <p class="menuCard__desc">Classic favorite — crunchy with melty cheese.</p>
+          <div class="menuCard__meta"><span>Popular</span><span class="sep">•</span><span>Fast</span></div>
+        </article>
+
+        <article class="menuCard" data-category="snacks">
+          <div class="menuCard__top">
+            <h3>Chips & Salsa</h3>
+            <span class="tag">Snack</span>
+          </div>
+          <p class="menuCard__desc">Crispy chips with fresh salsa.</p>
+          <div class="menuCard__meta"><span>Mild/Hot</span><span class="sep">•</span><span>Ask us</span></div>
+        </article>
+
+        <article class="menuCard" data-category="snacks">
+          <div class="menuCard__top">
+            <h3>Fruit Cup</h3>
+            <span class="tag">Snack</span>
+          </div>
+          <p class="menuCard__desc">Fresh fruit (chamoy & tajín optional).</p>
+          <div class="menuCard__meta"><span>Fresh</span><span class="sep">•</span><span>Sweet/Spicy</span></div>
+        </article>
+
+        <!-- DRINKS -->
+        <article class="menuCard" data-category="drinks">
+          <div class="menuCard__top">
+            <h3>Classic Michelada</h3>
+            <span class="tag tag--drink">Prepared Drink</span>
+          </div>
+          <p class="menuCard__desc">Spicy lime blend with rim seasoning and ice.</p>
+          <div class="menuCard__meta"><span>Signature</span><span class="sep">•</span><span>Pick spice level</span></div>
+        </article>
+
+        <article class="menuCard" data-category="drinks">
+          <div class="menuCard__top">
+            <h3>Mangonada</h3>
+            <span class="tag tag--drink">Prepared Drink</span>
+          </div>
+          <p class="menuCard__desc">Mango smoothie with chamoy and tajín.</p>
+          <div class="menuCard__meta"><span>Sweet</span><span class="sep">•</span><span>Spicy rim</span></div>
+        </article>
+
+        <article class="menuCard" data-category="drinks">
+          <div class="menuCard__top">
+            <h3>Limonada (Limeade)</h3>
+            <span class="tag tag--drink">Prepared Drink</span>
+          </div>
+          <p class="menuCard__desc">Fresh lime, chilled and refreshing.</p>
+          <div class="menuCard__meta"><span>Classic</span><span class="sep">•</span><span>Add fruit</span></div>
+        </article>
+
+        <article class="menuCard" data-category="drinks">
+          <div class="menuCard__top">
+            <h3>Strawberry Fresca</h3>
+            <span class="tag tag--drink">Prepared Drink</span>
+          </div>
+          <p class="menuCard__desc">Strawberry refresher served over ice.</p>
+          <div class="menuCard__meta"><span>Cold</span><span class="sep">•</span><span>Refreshing</span></div>
+        </article>
+
+        <article class="menuCard" data-category="drinks">
+          <div class="menuCard__top">
+            <h3>Cucumber Lime</h3>
+            <span class="tag tag--drink">Prepared Drink</span>
+          </div>
+          <p class="menuCard__desc">Cucumber + lime drink with a crisp finish.</p>
+          <div class="menuCard__meta"><span>Light</span><span class="sep">•</span><span>Extra lime</span></div>
+        </article>
+      </div>
+
+      <div class="note">
+        <strong>Want online ordering?</strong>
+        I can add a simple order form or a “Text to Order” button.
+      </div>
+    </div>
+  </section>
+
+  <!-- Specials -->
+  <section class="section section--alt" id="specials">
+    <div class="container specials">
+      <div>
+        <h2>Specials</h2>
+        <p class="muted">Use this section for limited-time drinks, new snacks, or combos.</p>
+
+        <div class="specialGrid">
+          <div class="specialCard">
+            <div class="specialCard__top">
+              <div class="specialCard__title">Combo Idea</div>
+              <span class="specialTag">Limited</span>
+            </div>
+            <p class="muted">Michelada + Snack (add your exact combo here).</p>
+          </div>
+
+          <div class="specialCard">
+            <div class="specialCard__top">
+              <div class="specialCard__title">Seasonal Flavor</div>
+              <span class="specialTag specialTag--blue">New</span>
+            </div>
+            <p class="muted">Try a new mangonada variation (edit anytime).</p>
+          </div>
+
+          <div class="specialCard">
+            <div class="specialCard__top">
+              <div class="specialCard__title">Family Size</div>
+              <span class="specialTag specialTag--gold">Popular</span>
+            </div>
+            <p class="muted">Bigger cups / shareable options (add details).</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="specialCTA">
+        <div class="specialCTA__title">Call to Order</div>
+        <p class="muted">We’ll get it ready for quick pickup.</p>
+        <a class="btn" href="tel:+19563783618">Call (956) 378-3618</a>
+        <div class="mini">Tip: Add your address in the Contact section below.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hours -->
+  <section class="section" id="hours">
+    <div class="container">
+      <div class="section__head">
+        <h2>Hours</h2>
+        <p class="muted">Replace these with your exact hours.</p>
+      </div>
+
+      <div class="hours">
+        <div class="hoursRow"><span>Mon</span><span>12:00 PM – 9:00 PM</span></div>
+        <div class="hoursRow"><span>Tue</span><span>12:00 PM – 9:00 PM</span></div>
+        <div class="hoursRow"><span>Wed</span><span>12:00 PM – 9:00 PM</span></div>
+        <div class="hoursRow"><span>Thu</span><span>12:00 PM – 10:00 PM</span></div>
+        <div class="hoursRow"><span>Fri</span><span>12:00 PM – 11:00 PM</span></div>
+        <div class="hoursRow"><span>Sat</span><span>12:00 PM – 11:00 PM</span></div>
+        <div class="hoursRow"><span>Sun</span><span>12:00 PM – 8:00 PM</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--alt" id="contact">
+    <div class="container contact">
+      <div>
+        <h2>Contact</h2>
+        <p class="muted">Call to order, and add your address for directions.</p>
+
+        <div class="contactGrid">
+          <div class="contactCard">
+            <div class="contactCard__label">Phone</div>
+            <a class="contactCard__value" href="tel:+19563783618">(956) 378-3618</a>
+            <div class="contactCard__hint">Tap to call</div>
+          </div>
+
+          <div class="contactCard">
+            <div class="contactCard__label">Address</div>
+            <div class="contactCard__value">Add your address here</div>
+            <div class="contactCard__hint">Optional: add Google Maps link</div>
+          </div>
+
+          <div class="contactCard">
+            <div class="contactCard__label">Social</div>
+            <div class="contactCard__value">Add Instagram/Facebook</div>
+            <div class="contactCard__hint">Example: @losprimosdrivethru</div>
+          </div>
+        </div>
+
+
+        <div class="qrCard" aria-label="Website QR Code">
+          <div class="qrCard__left">
+            <div class="qrCard__title">Scan to visit our website</div>
+            <div class="qrCard__url">LosPrimosDrive-Thru.com</div>
+            <div class="qrCard__hint muted">Save this QR on your phone or print it for your counter.</div>
+          </div>
+          <img class="qrCard__img" src="./qr-losprimosdrivethru.png" alt="QR code for LosPrimosDrive-Thru.com" />
+        </div>
+
+
+        <div class="ctaBar">
+          <div>
+            <div class="ctaBar__title">Ready to order?</div>
+            <div class="muted">Call ahead for quick pickup.</div>
+          </div>
+          <a class="btn" href="tel:+19563783618">Call Now</a>
+        </div>
+      </div>
+
+      <div class="mapCard" aria-label="Map placeholder">
+        <div class="mapCard__top">
+          <div class="mapCard__title">Map</div>
+          <div class="muted">Paste your Google Maps embed here (optional).</div>
+        </div>
+
+        <div class="mapPlaceholder">
+          <div class="mapPlaceholder__icon">📍</div>
+          <div class="mapPlaceholder__text">
+            Replace this box with a Google Maps embed iframe when you’re ready.
+          </div>
+        </div>
+
+        <details class="howto">
+          <summary>How do I add Google Maps?</summary>
+          <ol>
+            <li>Open your business on Google Maps</li>
+            <li>Click <strong>Share</strong> → <strong>Embed a map</strong></li>
+            <li>Copy the HTML iframe and paste it here (replacing the placeholder)</li>
+          </ol>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <a class="floatCall" href="tel:+19563783618" aria-label="Call Los Primos (956) 378-3618">Call to Order</a>
+
+  <footer class="footer">
+    <div class="container footer__row">
+      <div class="footer__left">
+        <div class="footer__brand">Los Primos Drive-Thru LLC</div>
+        <div class="muted">Snacks • Prepared Drinks • Drive-Thru</div>
+      </div>
+      <div class="footer__right">
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+
+// Mobile nav toggle
+const navToggle = document.getElementById("navToggle");
+const navMenu = document.getElementById("navMenu");
+
+if (navToggle && navMenu) {
+  navToggle.addEventListener("click", () => {
+    const isOpen = navMenu.classList.toggle("is-open");
+    navToggle.setAttribute("aria-expanded", String(isOpen));
+  });
+
+  // Close menu when clicking a link (mobile)
+  navMenu.querySelectorAll("a").forEach(a => {
+    a.addEventListener("click", () => {
+      navMenu.classList.remove("is-open");
+      navToggle.setAttribute("aria-expanded", "false");
+    });
+  });
+}
+
+// Menu filter + search
+const menuGrid = document.getElementById("menuGrid");
+const searchInput = document.getElementById("searchInput");
+const pills = document.querySelectorAll(".pill");
+
+let activeFilter = "all";
+
+function applyMenuFilters() {
+  if (!menuGrid) return;
+
+  const q = (searchInput?.value || "").trim().toLowerCase();
+  const cards = menuGrid.querySelectorAll(".menuCard");
+
+  cards.forEach(card => {
+    const category = card.getAttribute("data-category");
+    const text = card.innerText.toLowerCase();
+
+    const matchFilter = (activeFilter === "all") || (category === activeFilter);
+    const matchSearch = !q || text.includes(q);
+
+    card.style.display = (matchFilter && matchSearch) ? "" : "none";
+  });
+}
+
+pills.forEach(p => {
+  p.addEventListener("click", () => {
+    pills.forEach(x => {
+      x.classList.remove("is-active");
+      x.setAttribute("aria-selected", "false");
+    });
+    p.classList.add("is-active");
+    p.setAttribute("aria-selected", "true");
+
+    activeFilter = p.getAttribute("data-filter") || "all";
+    applyMenuFilters();
+  });
+});
+
+searchInput?.addEventListener("input", applyMenuFilters);
+applyMenuFilters();
+
+:root{
+  /* Brand-inspired colors (pulled from logo vibe: sunset + ocean + palm) */
+  --bg0: #07070a;
+  --bg1: #0b0b12;
+
+  --text: rgba(255,255,255,.93);
+  --muted: rgba(255,255,255,.72);
+  --muted2: rgba(255,255,255,.56);
+  --border: rgba(255,255,255,.14);
+
+  --sun: #ffb000;
+  --sun2:#ff5a3d;
+  --ocean:#1bd9ff;
+  --lime:#7CFF5A;
+
+  --card: rgba(255,255,255,.08);
+  --card2: rgba(255,255,255,.10);
+
+  --shadow: 0 22px 80px rgba(0,0,0,.58);
+  --shadowSoft: 0 12px 40px rgba(0,0,0,.35);
+
+  --radius: 18px;
+  --radius2: 26px;
+
+  --font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  --display: "Fraunces", Georgia, serif;
+
+  --container: 1120px;
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family: var(--font);
+  color: var(--text);
+  line-height:1.55;
+
+  /* More vibrant, “night + neon sunset” background */
+  background:
+    radial-gradient(1000px 650px at 12% 6%, rgba(255,176,0,.22), transparent 58%),
+    radial-gradient(900px 550px at 88% 10%, rgba(27,217,255,.20), transparent 58%),
+    radial-gradient(1200px 700px at 45% 110%, rgba(255,90,61,.18), transparent 62%),
+    radial-gradient(900px 700px at 55% 60%, rgba(124,255,90,.06), transparent 66%),
+    linear-gradient(180deg, var(--bg0), var(--bg1));
+}
+
+a{ color:inherit; text-decoration:none; }
+a:hover{ text-decoration: underline; }
+img{ max-width:100%; display:block; }
+
+.container{
+  width: min(var(--container), calc(100% - 40px));
+  margin: 0 auto;
+}
+
+.sr-only{
+  position:absolute !important;
+  width:1px;height:1px;
+  padding:0;margin:-1px;
+  overflow:hidden;clip:rect(0,0,0,0);
+  border:0;
+}
+
+/* Subtle animated shimmer (very light) */
+@keyframes glowMove{
+  0%{ transform: translate3d(-2%,0,0); opacity:.55; }
+  50%{ transform: translate3d(2%,0,0); opacity:.75; }
+  100%{ transform: translate3d(-2%,0,0); opacity:.55; }
+}
+
+/* Announcement */
+.announce{
+  border-bottom: 1px solid rgba(255,255,255,.10);
+  background:
+    linear-gradient(90deg, rgba(255,176,0,.22), rgba(255,90,61,.18), rgba(27,217,255,.16));
+}
+.announce__row{
+  display:flex;
+  gap:14px;
+  align-items:center;
+  justify-content: space-between;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+.badge{
+  display:inline-flex;
+  align-items:center;
+  font-size: 12px;
+  letter-spacing:.12em;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.22);
+  border: 1px solid rgba(255,255,255,.14);
+  backdrop-filter: blur(10px);
+}
+.announce__text{ color: var(--muted); }
+.announce__phone{
+  font-weight: 900;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(0,0,0,.22);
+  border: 1px solid rgba(255,255,255,.14);
+  backdrop-filter: blur(10px);
+}
+
+/* Header */
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 12;
+  backdrop-filter: blur(14px);
+  background: rgba(8,8,12,.55);
+  border-bottom: 1px solid rgba(255,255,255,.10);
+}
+.header__row{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 14px 0;
+  gap: 18px;
+}
+
+/* Brand */
+.brand{
+  display:flex;
+  align-items:center;
+  gap: 12px;
+  min-width: 230px;
+}
+.brand__logo{
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+.brand__name{
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: .02em;
+}
+.brand__sub{
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* Nav */
+.nav{ display:flex; align-items:center; gap: 10px; position: relative; }
+.nav__toggle{
+  display:none;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  padding: 10px 12px;
+  border-radius: 14px;
+  cursor:pointer;
+  backdrop-filter: blur(10px);
+}
+.nav__toggleBars{
+  width: 20px; height: 2px;
+  background: rgba(255,255,255,.88);
+  display:block;
+  position: relative;
+}
+.nav__toggleBars::before,
+.nav__toggleBars::after{
+  content:"";
+  position:absolute;
+  left:0;
+  width: 20px; height:2px;
+  background: rgba(255,255,255,.88);
+}
+.nav__toggleBars::before{ top:-6px; }
+.nav__toggleBars::after{ top:6px; }
+
+.nav__menu{
+  display:flex;
+  align-items:center;
+  gap: 18px;
+}
+.nav__menu a{
+  color: rgba(255,255,255,.78);
+  font-weight: 800;
+}
+.nav__menu a:hover{ color: var(--text); text-decoration:none; }
+
+/* Buttons */
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 999px;
+
+  border: 1px solid rgba(255,255,255,.14);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.10), rgba(255,255,255,.06));
+  backdrop-filter: blur(10px);
+
+  color: rgba(255,255,255,.96);
+  font-weight: 900;
+  letter-spacing: .01em;
+  box-shadow: var(--shadowSoft);
+  text-decoration:none !important;
+  transition: transform .12s ease, filter .12s ease, border-color .12s ease;
+}
+.btn:hover{ transform: translateY(-1px); filter: brightness(1.05); border-color: rgba(255,255,255,.22); }
+
+.btn--ghost{
+  background: rgba(0,0,0,.22);
+  box-shadow: none;
+}
+.btn--small{ padding: 10px 14px; font-size: 14px; }
+
+/* “Primary” button variant via class on element */
+.hero__cta .btn:first-child,
+.nav__menu .btn{
+  border-color: rgba(255,176,0,.35);
+  background:
+    linear-gradient(90deg, rgba(255,176,0,.24), rgba(255,90,61,.18), rgba(27,217,255,.14));
+  box-shadow: 0 18px 60px rgba(255,176,0,.10);
+}
+
+/* Hero */
+.hero{ padding: 54px 0 18px; }
+.hero__grid{
+  display:grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 22px;
+  align-items: start;
+}
+.hero__copy h1{
+  font-family: var(--display);
+  font-size: clamp(34px, 4vw, 56px);
+  line-height: 1.03;
+  margin: 0 0 12px;
+}
+.accent{
+  background: linear-gradient(90deg, var(--sun), var(--sun2), var(--ocean));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color: transparent;
+}
+.hero__copy p{
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 60ch;
+  margin: 0 0 20px;
+}
+.hero__cta{ display:flex; gap: 12px; flex-wrap: wrap; }
+
+.hero__meta{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 18px;
+}
+.metaCard{
+  border-radius: 18px;
+  padding: 12px;
+  background: rgba(0,0,0,.22);
+  border: 1px solid rgba(255,255,255,.14);
+  backdrop-filter: blur(10px);
+}
+.metaCard__label{ color: var(--muted2); font-size: 12px; }
+.metaCard__value{ font-weight: 900; margin-top: 4px; }
+
+/* Hero right card (make it more “premium” and logo-like) */
+.hero__card{
+  position: relative;
+  border-radius: var(--radius2);
+  border: 1px solid rgba(255,255,255,.16);
+  background:
+    radial-gradient(1200px 500px at 20% 0%, rgba(255,176,0,.16), transparent 55%),
+    radial-gradient(900px 420px at 85% 0%, rgba(27,217,255,.14), transparent 60%),
+    rgba(0,0,0,.22);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow);
+  padding: 18px;
+  overflow:hidden;
+}
+.hero__card::before{
+  content:"";
+  position:absolute;
+  inset:-60px;
+  background:
+    radial-gradient(closest-side at 30% 20%, rgba(255,176,0,.18), transparent 60%),
+    radial-gradient(closest-side at 70% 10%, rgba(27,217,255,.16), transparent 62%),
+    radial-gradient(closest-side at 50% 80%, rgba(255,90,61,.14), transparent 64%);
+  animation: glowMove 6.5s ease-in-out infinite;
+  pointer-events:none;
+}
+.hero__cardTop,
+.featureList,
+.hero__cardBottom{ position: relative; z-index: 1; }
+
+.hero__cardTop{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 12px;
+}
+.kicker{
+  color: var(--muted2);
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: 12px;
+}
+.hero__title{ font-weight: 1000; margin-top: 6px; font-size: 18px; }
+.chip{
+  border: 1px solid rgba(255,255,255,.16);
+  background: rgba(0,0,0,.22);
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: 12px;
+  backdrop-filter: blur(10px);
+}
+.featureList{
+  list-style:none;
+  padding: 0;
+  margin: 14px 0 18px;
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.featureList li{
+  display:flex;
+  gap: 10px;
+  align-items:flex-start;
+  padding: 12px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.12);
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  margin-top: 6px;
+  background: linear-gradient(180deg, var(--sun), var(--sun2));
+}
+.featureList__name{ font-weight: 900; }
+.featureList__desc{ color: var(--muted); font-size: 13px; margin-top: 2px; }
+.hero__cardBottom{ display:flex; gap: 10px; flex-wrap: wrap; }
+
+/* Quick Strip */
+.strip{ padding: 12px 0 0; }
+.strip__grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 12px;
+}
+.stripItem{
+  border-radius: 18px;
+  padding: 14px;
+  background: rgba(0,0,0,.22);
+  border: 1px solid rgba(255,255,255,.14);
+  backdrop-filter: blur(10px);
+  display:flex;
+  gap: 10px;
+  align-items:flex-start;
+}
+.stripItem__icon{ font-size: 18px; }
+.stripItem__title{ font-weight: 950; }
+.stripItem__text{ color: var(--muted); font-size: 13px; margin-top: 2px; }
+
+/* Sections */
+.section{ padding: 54px 0; }
+.section--alt{
+  background: linear-gradient(180deg, rgba(255,255,255,.04), rgba(0,0,0,.12));
+  border-top: 1px solid rgba(255,255,255,.10);
+  border-bottom: 1px solid rgba(255,255,255,.10);
+}
+.section__head{
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.section h2{
+  font-family: var(--display);
+  font-size: 32px;
+  margin: 0;
+}
+.muted{ color: var(--muted); }
+
+/* Menu tools */
+.menuTools{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.search input{
+  width: min(600px, 100%);
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  color: var(--text);
+  outline: none;
+  backdrop-filter: blur(10px);
+}
+.search input::placeholder{ color: rgba(255,255,255,.50); }
+.filters{ display:flex; gap: 10px; flex-wrap: wrap; }
+.pill{
+  cursor:pointer;
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  color: rgba(255,255,255,.78);
+  font-weight: 900;
+  backdrop-filter: blur(10px);
+}
+.pill.is-active{
+  color: rgba(255,255,255,.96);
+  border-color: rgba(255,176,0,.35);
+  background: linear-gradient(90deg, rgba(255,176,0,.18), rgba(255,90,61,.14), rgba(27,217,255,.12));
+}
+
+/* Menu grid */
+.menuGrid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.menuCard{
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  padding: 16px;
+  transition: transform .14s ease, border-color .14s ease, filter .14s ease;
+}
+.menuCard:hover{
+  transform: translateY(-3px);
+  border-color: rgba(255,255,255,.22);
+  filter: brightness(1.03);
+}
+.menuCard__top{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 12px;
+}
+.menuCard h3{
+  margin:0;
+  font-size: 16px;
+  font-weight: 950;
+}
+.tag{
+  font-size: 12px;
+  font-weight: 950;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,90,61,.32);
+  background: rgba(255,90,61,.12);
+}
+.tag--drink{
+  border-color: rgba(27,217,255,.35);
+  background: rgba(27,217,255,.12);
+}
+.menuCard__desc{ margin: 10px 0 12px; color: var(--muted); }
+.menuCard__meta{
+  color: var(--muted2);
+  font-size: 12px;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items:center;
+}
+.sep{ opacity: .6; }
+
+.note{
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px dashed rgba(255,255,255,.22);
+  background: rgba(0,0,0,.18);
+}
+
+/* Specials */
+.specials{
+  display:grid;
+  grid-template-columns: 1.15fr .85fr;
+  gap: 18px;
+  align-items:start;
+}
+.specialGrid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.specialCard{
+  padding: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+}
+.specialCard__top{
+  display:flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.specialCard__title{ font-weight: 950; }
+.specialTag{
+  font-size: 12px;
+  font-weight: 950;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,90,61,.32);
+  background: rgba(255,90,61,.12);
+}
+.specialTag--blue{ border-color: rgba(27,217,255,.35); background: rgba(27,217,255,.12); }
+.specialTag--gold{ border-color: rgba(255,176,0,.35); background: rgba(255,176,0,.14); }
+
+.specialCTA{
+  padding: 18px;
+  border-radius: var(--radius2);
+  border: 1px solid rgba(255,176,0,.25);
+  background:
+    radial-gradient(900px 420px at 10% 0%, rgba(255,176,0,.18), transparent 60%),
+    rgba(0,0,0,.22);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadowSoft);
+}
+.specialCTA__title{ font-weight: 950; font-size: 18px; margin-bottom: 6px; }
+.mini{ margin-top: 12px; color: var(--muted2); font-size: 12px; }
+
+/* Hours */
+.hours{
+  width: min(560px, 100%);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  overflow:hidden;
+}
+.hoursRow{
+  display:flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+.hoursRow:first-child{ border-top: 0; }
+.hoursRow span:first-child{ font-weight: 950; }
+.hoursRow span:last-child{ color: var(--muted); }
+
+/* Contact */
+.contact{
+  display:grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 18px;
+  align-items:start;
+}
+.contactGrid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 14px;
+}
+.contactCard{
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  padding: 14px;
+}
+.contactCard__label{ color: var(--muted2); font-size: 12px; }
+.contactCard__value{ font-weight: 950; margin-top: 6px; display:block; }
+.contactCard__hint{ color: var(--muted); font-size: 12px; margin-top: 6px; }
+
+.ctaBar{
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,176,0,.25);
+  background: linear-gradient(90deg, rgba(255,176,0,.16), rgba(255,90,61,.12), rgba(27,217,255,.10));
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  backdrop-filter: blur(10px);
+}
+.ctaBar__title{ font-weight: 950; }
+
+.mapCard{
+  border-radius: var(--radius2);
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  backdrop-filter: blur(12px);
+  padding: 16px;
+}
+.mapCard__top{
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.mapCard__title{ font-weight: 950; font-size: 18px; }
+.mapPlaceholder{
+  border-radius: 18px;
+  border: 1px dashed rgba(255,255,255,.22);
+  background: rgba(255,255,255,.05);
+  min-height: 220px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  gap: 8px;
+  text-align:center;
+  padding: 16px;
+}
+.mapPlaceholder__icon{ font-size: 22px; }
+.mapPlaceholder__text{ color: var(--muted); max-width: 34ch; }
+.howto summary{ cursor: pointer; margin-top: 12px; font-weight: 950; }
+.howto ol{ color: var(--muted); }
+
+/* Footer */
+.footer{
+  padding: 28px 0;
+  border-top: 1px solid rgba(255,255,255,.10);
+}
+.footer__row{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.footer__brand{ font-weight: 950; }
+.footer__right a{ color: var(--muted); }
+
+/* Floating call button (mobile-friendly) */
+.floatCall{
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 30;
+  padding: 12px 16px;
+  border-radius: 999px;
+  font-weight: 1000;
+  letter-spacing: .01em;
+  border: 1px solid rgba(255,176,0,.35);
+  background: linear-gradient(90deg, rgba(255,176,0,.26), rgba(255,90,61,.18), rgba(27,217,255,.14));
+  box-shadow: 0 22px 70px rgba(0,0,0,.55);
+  text-decoration:none !important;
+}
+.floatCall:hover{ filter: brightness(1.06); }
+
+/* Responsive */
+@media (max-width: 980px){
+  .hero__grid{ grid-template-columns: 1fr; }
+  .specials{ grid-template-columns: 1fr; }
+  .specialGrid{ grid-template-columns: 1fr; }
+  .contact{ grid-template-columns: 1fr; }
+  .menuGrid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .contactGrid{ grid-template-columns: 1fr; }
+  .strip__grid{ grid-template-columns: 1fr; }
+}
+
+@media (max-width: 720px){
+  .nav__toggle{ display:inline-flex; }
+  .nav__menu{
+    display:none;
+    position:absolute;
+    right: 0;
+    top: 54px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,.14);
+    background: rgba(0,0,0,.78);
+    backdrop-filter: blur(14px);
+    box-shadow: var(--shadow);
+    min-width: 220px;
+  }
+  .nav__menu.is-open{ display:flex; }
+  .nav__menu a{
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: rgba(255,255,255,.06);
+  }
+  .hero__meta{ grid-template-columns: 1fr; }
+  .menuGrid{ grid-template-columns: 1fr; }
+}
+
+
+/* QR Card */
+.qrCard{
+  margin-top: 14px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(0,0,0,.22);
+  backdrop-filter: blur(10px);
+  padding: 14px;
+  display:flex;
+  gap: 14px;
+  align-items:center;
+  justify-content: space-between;
+}
+.qrCard__title{ font-weight: 950; }
+.qrCard__url{
+  margin-top: 6px;
+  font-weight: 950;
+  letter-spacing: .02em;
+  background: linear-gradient(90deg, var(--sun), var(--sun2), var(--ocean));
+  -webkit-background-clip:text;
+  background-clip:text;
+  color: transparent;
+}
+.qrCard__img{
+  width: 120px;
+  height: 120px;
+  border-radius: 14px;
+  background: #fff;
+  padding: 8px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.35);
+}
+@media (max-width: 720px){
+  .qrCard{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .qrCard__img{ width: 160px; height: 160px; }
+}
